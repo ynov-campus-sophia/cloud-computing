@@ -5,8 +5,8 @@ from email.mime.multipart import MIMEMultipart
 import smtplib, ssl
 
 # smtp = smtplib.SMTP('ssl0.ovh.net',587)
-smtp = smtplib.SMTP('ssl0.ovh.net',465)
-smtp.set_debuglevel(1)
+smtp = smtplib.SMTP('smtp.mail.ovh.net',465)
+smtp.set_debuglevel(2)
 smtp.ehlo()
 # smtp.starttls()
 smtp.login("ynovcampus", "ynovcampus")
