@@ -6,4 +6,6 @@ sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev librea
 pyenv install 3.10.4
 pyenv virtualenv 3.10.4 cloudcomputing
 pyenv  activate cloudcomputing
+
+https://docker-mailserver.github.io/docker-mailserver/latest/config/advanced/mail-forwarding/gmail-smtp/
 ```
