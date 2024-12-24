@@ -1,0 +1,323 @@
+2024-12-24T17:05:36.985859+00:00 mail-ynovcampus dovecot: master: Dovecot v2.3.19.1 (9b53102964) starting up for imap, lmtp
+2024-12-24T17:05:37.585037+00:00 mail-ynovcampus opendkim[715]: OpenDKIM Filter v2.11.0 starting (args: -f)
+2024-12-24T17:05:37.847740+00:00 mail-ynovcampus opendmarc[730]: OpenDMARC Filter v1.4.2 starting (args: -f -p inet:8893@localhost -P /var/run/opendmarc/opendmarc.pid)
+2024-12-24T17:05:37.847817+00:00 mail-ynovcampus opendmarc[730]: additional trusted authentication services: mail-ynovcampus.ddns.net
+2024-12-24T17:05:38.716887+00:00 mail-ynovcampus postfix/postfix-script[828]: starting the Postfix mail system
+2024-12-24T17:05:38.740307+00:00 mail-ynovcampus postfix/master[829]: daemon started -- version 3.7.10, configuration /etc/postfix
+2024-12-24T17:05:39.338359+00:00 mail-ynovcampus amavis[777]: starting. /usr/sbin/amavisd at mail-ynovcampus.ddns.net amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2024-12-24T17:05:39.338542+00:00 mail-ynovcampus amavis[777]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2024-12-24T17:05:39.363802+00:00 mail-ynovcampus amavis[777]: Net::Server: Group Not Defined.  Defaulting to EGID '999 999'
+2024-12-24T17:05:39.364006+00:00 mail-ynovcampus amavis[777]: Net::Server: User Not Defined.  Defaulting to EUID '999'
+2024-12-24T17:05:39.374740+00:00 mail-ynovcampus amavis[777]: No ext program for   .zoo, tried: zoo
+2024-12-24T17:05:39.375079+00:00 mail-ynovcampus amavis[777]: No ext program for   .doc, tried: ripole
+2024-12-24T17:05:39.376034+00:00 mail-ynovcampus amavis[777]: No ext program for   .zst, tried: unzstd
+2024-12-24T17:05:39.376188+00:00 mail-ynovcampus amavis[777]: No decoder for       .F   
+2024-12-24T17:05:39.376232+00:00 mail-ynovcampus amavis[777]: No decoder for       .doc 
+2024-12-24T17:05:39.376245+00:00 mail-ynovcampus amavis[777]: No decoder for       .zoo 
+2024-12-24T17:05:39.376438+00:00 mail-ynovcampus amavis[777]: No decoder for       .zst 
+2024-12-24T17:07:40.991465+00:00 mail-ynovcampus postfix/submission/smtpd[1091]: warning: hostname cloudcomputing does not resolve to address 188.166.160.243
+2024-12-24T17:07:40.991477+00:00 mail-ynovcampus postfix/submission/smtpd[1091]: connect from unknown[188.166.160.243]
+2024-12-24T17:07:41.011956+00:00 mail-ynovcampus postfix/submission/smtpd[1091]: disconnect from unknown[188.166.160.243] ehlo=1 quit=1 commands=2
+2024-12-24T17:09:07.200507+00:00 mail-ynovcampus postfix/submission/smtpd[1091]: warning: hostname cloudcomputing does not resolve to address 188.166.160.243
+2024-12-24T17:09:07.200522+00:00 mail-ynovcampus postfix/submission/smtpd[1091]: connect from unknown[188.166.160.243]
+2024-12-24T17:09:07.203598+00:00 mail-ynovcampus postfix/submission/smtpd[1091]: disconnect from unknown[188.166.160.243] ehlo=1 quit=1 commands=2
+2024-12-24T17:09:28.965852+00:00 mail-ynovcampus postfix/submission/smtpd[1091]: warning: hostname cloudcomputing does not resolve to address 188.166.160.243
+2024-12-24T17:09:28.965932+00:00 mail-ynovcampus postfix/submission/smtpd[1091]: connect from unknown[188.166.160.243]
+2024-12-24T17:09:28.969592+00:00 mail-ynovcampus postfix/submission/smtpd[1091]: disconnect from unknown[188.166.160.243] ehlo=1 quit=1 commands=2
+2024-12-24T17:12:49.138052+00:00 mail-ynovcampus postfix/anvil[1093]: statistics: max connection rate 2/60s for (submission:188.166.160.243) at Dec 24 17:09:28
+2024-12-24T17:12:49.138067+00:00 mail-ynovcampus postfix/anvil[1093]: statistics: max connection count 1 for (submission:188.166.160.243) at Dec 24 17:07:40
+2024-12-24T17:12:49.138074+00:00 mail-ynovcampus postfix/anvil[1093]: statistics: max cache size 1 at Dec 24 17:07:40
+2024-12-24T17:12:51.428259+00:00 mail-ynovcampus postfix/postscreen[1640]: cache btree:/var/lib/postfix/postscreen_cache full cleanup: retained=0 dropped=0 entries
+2024-12-24T17:12:51.429733+00:00 mail-ynovcampus postfix/postscreen[1640]: CONNECT from [188.166.160.243]:38696 to [172.18.0.2]:25
+2024-12-24T17:12:57.430669+00:00 mail-ynovcampus postfix/postscreen[1640]: PASS NEW [188.166.160.243]:38696
+2024-12-24T17:12:57.452231+00:00 mail-ynovcampus postfix/smtpd[1658]: warning: hostname cloudcomputing does not resolve to address 188.166.160.243
+2024-12-24T17:12:57.452269+00:00 mail-ynovcampus postfix/smtpd[1658]: connect from unknown[188.166.160.243]
+2024-12-24T17:12:57.470189+00:00 mail-ynovcampus postfix/smtpd[1658]: lost connection after EHLO from unknown[188.166.160.243]
+2024-12-24T17:12:57.470448+00:00 mail-ynovcampus postfix/smtpd[1658]: disconnect from unknown[188.166.160.243] ehlo=1 commands=1
+2024-12-24T17:13:14.080040+00:00 mail-ynovcampus postfix/postscreen[1640]: CONNECT from [188.166.160.243]:46956 to [172.18.0.2]:25
+2024-12-24T17:13:14.080132+00:00 mail-ynovcampus postfix/postscreen[1640]: PASS OLD [188.166.160.243]:46956
+2024-12-24T17:13:14.099569+00:00 mail-ynovcampus postfix/smtpd[1658]: warning: hostname cloudcomputing does not resolve to address 188.166.160.243
+2024-12-24T17:13:14.099628+00:00 mail-ynovcampus postfix/smtpd[1658]: connect from unknown[188.166.160.243]
+2024-12-24T17:13:14.116002+00:00 mail-ynovcampus postfix/smtpd[1658]: lost connection after EHLO from unknown[188.166.160.243]
+2024-12-24T17:13:14.116193+00:00 mail-ynovcampus postfix/smtpd[1658]: disconnect from unknown[188.166.160.243] ehlo=1 commands=1
+2024-12-24T17:14:05.771751+00:00 mail-ynovcampus postfix/postscreen[1640]: CONNECT from [188.166.160.243]:57314 to [172.18.0.2]:25
+2024-12-24T17:14:05.771787+00:00 mail-ynovcampus postfix/postscreen[1640]: PASS OLD [188.166.160.243]:57314
+2024-12-24T17:14:05.774695+00:00 mail-ynovcampus postfix/smtpd[1658]: warning: hostname cloudcomputing does not resolve to address 188.166.160.243
+2024-12-24T17:14:05.774713+00:00 mail-ynovcampus postfix/smtpd[1658]: connect from unknown[188.166.160.243]
+2024-12-24T17:14:05.778235+00:00 mail-ynovcampus postfix/smtpd[1658]: disconnect from unknown[188.166.160.243] ehlo=1 quit=1 commands=2
+2024-12-24T17:17:25.967771+00:00 mail-ynovcampus postfix/anvil[1660]: statistics: max connection rate 2/60s for (smtpd:188.166.160.243) at Dec 24 17:13:14
+2024-12-24T17:17:25.967786+00:00 mail-ynovcampus postfix/anvil[1660]: statistics: max connection count 1 for (smtpd:188.166.160.243) at Dec 24 17:12:57
+2024-12-24T17:17:25.967791+00:00 mail-ynovcampus postfix/anvil[1660]: statistics: max cache size 1 at Dec 24 17:12:57
+2024-12-24T17:17:54.909497+00:00 mail-ynovcampus dovecot: master: Dovecot v2.3.19.1 (9b53102964) starting up for imap, lmtp
+2024-12-24T17:17:55.513780+00:00 mail-ynovcampus opendkim[143]: OpenDKIM Filter v2.11.0 starting (args: -f)
+2024-12-24T17:17:55.807174+00:00 mail-ynovcampus opendmarc[158]: OpenDMARC Filter v1.4.2 starting (args: -f -p inet:8893@localhost -P /var/run/opendmarc/opendmarc.pid)
+2024-12-24T17:17:55.807189+00:00 mail-ynovcampus opendmarc[158]: additional trusted authentication services: mail-ynovcampus.ddns.net
+2024-12-24T17:17:56.762674+00:00 mail-ynovcampus postfix/postfix-script[244]: starting the Postfix mail system
+2024-12-24T17:17:56.783681+00:00 mail-ynovcampus postfix/master[245]: daemon started -- version 3.7.10, configuration /etc/postfix
+2024-12-24T17:17:57.553955+00:00 mail-ynovcampus amavis[209]: starting. /usr/sbin/amavisd at mail-ynovcampus.ddns.net amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2024-12-24T17:17:57.554172+00:00 mail-ynovcampus amavis[209]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2024-12-24T17:17:57.581951+00:00 mail-ynovcampus amavis[209]: Net::Server: Group Not Defined.  Defaulting to EGID '999 999'
+2024-12-24T17:17:57.582710+00:00 mail-ynovcampus amavis[209]: Net::Server: User Not Defined.  Defaulting to EUID '999'
+2024-12-24T17:17:57.594672+00:00 mail-ynovcampus amavis[209]: No ext program for   .zoo, tried: zoo
+2024-12-24T17:17:57.594725+00:00 mail-ynovcampus amavis[209]: No ext program for   .doc, tried: ripole
+2024-12-24T17:17:57.595831+00:00 mail-ynovcampus amavis[209]: No ext program for   .zst, tried: unzstd
+2024-12-24T17:17:57.595968+00:00 mail-ynovcampus amavis[209]: No decoder for       .F   
+2024-12-24T17:17:57.595998+00:00 mail-ynovcampus amavis[209]: No decoder for       .doc 
+2024-12-24T17:17:57.596308+00:00 mail-ynovcampus amavis[209]: No decoder for       .zoo 
+2024-12-24T17:17:57.596757+00:00 mail-ynovcampus amavis[209]: No decoder for       .zst 
+2024-12-24T17:23:31.358408+00:00 mail-ynovcampus dovecot: imap-login: Disconnected: Connection closed (no auth attempts in 0 secs): user=<>, rip=64.62.197.26, lip=172.18.0.2, session=<QuI+Xwcq2z5APsUa>
+2024-12-24T17:23:42.219735+00:00 mail-ynovcampus dovecot: imap-login: Disconnected: Too many invalid commands (no auth attempts in 0 secs): user=<>, rip=64.62.197.27, lip=172.18.0.2, session=<nZ3kXwcqa91APsUb>
+2024-12-24T18:03:51.361293+00:00 mail-ynovcampus postfix/submissions/smtpd[5136]: connect from 45-79-183-204.ip.linodeusercontent.com[45.79.183.204]
+2024-12-24T18:03:51.577010+00:00 mail-ynovcampus postfix/submissions/smtpd[5136]: lost connection after AUTH from 45-79-183-204.ip.linodeusercontent.com[45.79.183.204]
+2024-12-24T18:03:51.577739+00:00 mail-ynovcampus postfix/submissions/smtpd[5136]: disconnect from 45-79-183-204.ip.linodeusercontent.com[45.79.183.204] auth=0/1 commands=0/1
+2024-12-24T18:07:11.674030+00:00 mail-ynovcampus postfix/anvil[5138]: statistics: max connection rate 1/60s for (submissions:45.79.183.204) at Dec 24 18:03:51
+2024-12-24T18:07:11.674045+00:00 mail-ynovcampus postfix/anvil[5138]: statistics: max connection count 1 for (submissions:45.79.183.204) at Dec 24 18:03:51
+2024-12-24T18:07:11.674050+00:00 mail-ynovcampus postfix/anvil[5138]: statistics: max cache size 1 at Dec 24 18:03:51
+2024-12-24T18:08:42.828089+00:00 mail-ynovcampus postfix/submission/smtpd[5655]: connect from 45-79-183-140.ip.linodeusercontent.com[45.79.183.140]
+2024-12-24T18:08:43.222956+00:00 mail-ynovcampus postfix/submission/smtpd[5655]: lost connection after STARTTLS from 45-79-183-140.ip.linodeusercontent.com[45.79.183.140]
+2024-12-24T18:08:43.223190+00:00 mail-ynovcampus postfix/submission/smtpd[5655]: disconnect from 45-79-183-140.ip.linodeusercontent.com[45.79.183.140] ehlo=1 starttls=0/1 commands=1/2
+2024-12-24T18:12:03.400216+00:00 mail-ynovcampus postfix/anvil[5657]: statistics: max connection rate 1/60s for (submission:45.79.183.140) at Dec 24 18:08:42
+2024-12-24T18:12:03.400379+00:00 mail-ynovcampus postfix/anvil[5657]: statistics: max connection count 1 for (submission:45.79.183.140) at Dec 24 18:08:42
+2024-12-24T18:12:03.400407+00:00 mail-ynovcampus postfix/anvil[5657]: statistics: max cache size 1 at Dec 24 18:08:42
+2024-12-24T18:17:08.313293+00:00 mail-ynovcampus postfix/postscreen[6554]: CONNECT from [45.33.72.32]:61000 to [172.18.0.2]:25
+2024-12-24T18:17:14.313782+00:00 mail-ynovcampus postfix/postscreen[6554]: PASS NEW [45.33.72.32]:61000
+2024-12-24T18:17:14.338871+00:00 mail-ynovcampus postfix/smtpd[6564]: connect from 45-33-72-32.ip.linodeusercontent.com[45.33.72.32]
+2024-12-24T18:17:14.544166+00:00 mail-ynovcampus postfix/smtpd[6564]: lost connection after AUTH from 45-33-72-32.ip.linodeusercontent.com[45.33.72.32]
+2024-12-24T18:17:14.544373+00:00 mail-ynovcampus postfix/smtpd[6564]: disconnect from 45-33-72-32.ip.linodeusercontent.com[45.33.72.32] auth=0/1 commands=0/1
+2024-12-24T18:19:08.271942+00:00 mail-ynovcampus dovecot: imap-login: Disconnected: Connection closed (no auth attempts in 0 secs): user=<>, rip=66.175.212.173, lip=172.18.0.2, session=<mSQkJggqSO5Cr9St>
+2024-12-24T18:20:34.682044+00:00 mail-ynovcampus postfix/anvil[6566]: statistics: max connection rate 1/60s for (smtpd:45.33.72.32) at Dec 24 18:17:14
+2024-12-24T18:20:34.682062+00:00 mail-ynovcampus postfix/anvil[6566]: statistics: max connection count 1 for (smtpd:45.33.72.32) at Dec 24 18:17:14
+2024-12-24T18:20:34.682070+00:00 mail-ynovcampus postfix/anvil[6566]: statistics: max cache size 1 at Dec 24 18:17:14
+2024-12-24T18:25:00.414081+00:00 mail-ynovcampus postfix/postscreen[7394]: CONNECT from [188.166.160.243]:36064 to [172.18.0.2]:25
+2024-12-24T18:25:00.414123+00:00 mail-ynovcampus postfix/postscreen[7394]: PASS OLD [188.166.160.243]:36064
+2024-12-24T18:25:00.458807+00:00 mail-ynovcampus postfix/smtpd[7395]: warning: hostname cloudcomputing does not resolve to address 188.166.160.243
+2024-12-24T18:25:00.458826+00:00 mail-ynovcampus postfix/smtpd[7395]: connect from unknown[188.166.160.243]
+2024-12-24T18:25:00.471864+00:00 mail-ynovcampus postfix/smtpd[7395]: disconnect from unknown[188.166.160.243] ehlo=1 quit=1 commands=2
+2024-12-24T18:43:32.607245+00:00 mail-ynovcampus dovecot: master: Dovecot v2.3.19.1 (9b53102964) starting up for imap, lmtp
+2024-12-24T18:43:33.199776+00:00 mail-ynovcampus opendkim[608]: OpenDKIM Filter v2.11.0 starting (args: -f)
+2024-12-24T18:43:33.501629+00:00 mail-ynovcampus opendmarc[623]: OpenDMARC Filter v1.4.2 starting (args: -f -p inet:8893@localhost -P /var/run/opendmarc/opendmarc.pid)
+2024-12-24T18:43:33.501646+00:00 mail-ynovcampus opendmarc[623]: additional trusted authentication services: mail-ynovcampus.ddns.net
+2024-12-24T18:43:34.355820+00:00 mail-ynovcampus postfix/postfix-script[712]: starting the Postfix mail system
+2024-12-24T18:43:34.375398+00:00 mail-ynovcampus postfix/master[713]: daemon started -- version 3.7.10, configuration /etc/postfix
+2024-12-24T18:43:35.015955+00:00 mail-ynovcampus amavis[673]: starting. /usr/sbin/amavisd at mail-ynovcampus.ddns.net amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2024-12-24T18:43:35.015997+00:00 mail-ynovcampus amavis[673]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2024-12-24T18:43:35.041960+00:00 mail-ynovcampus amavis[673]: Net::Server: Group Not Defined.  Defaulting to EGID '999 999'
+2024-12-24T18:43:35.042002+00:00 mail-ynovcampus amavis[673]: Net::Server: User Not Defined.  Defaulting to EUID '999'
+2024-12-24T18:43:35.050689+00:00 mail-ynovcampus amavis[673]: No ext program for   .zoo, tried: zoo
+2024-12-24T18:43:35.050761+00:00 mail-ynovcampus amavis[673]: No ext program for   .doc, tried: ripole
+2024-12-24T18:43:35.051361+00:00 mail-ynovcampus amavis[673]: No ext program for   .zst, tried: unzstd
+2024-12-24T18:43:35.051615+00:00 mail-ynovcampus amavis[673]: No decoder for       .F   
+2024-12-24T18:43:35.051634+00:00 mail-ynovcampus amavis[673]: No decoder for       .doc 
+2024-12-24T18:43:35.051643+00:00 mail-ynovcampus amavis[673]: No decoder for       .zoo 
+2024-12-24T18:43:35.051651+00:00 mail-ynovcampus amavis[673]: No decoder for       .zst 
+2024-12-24T18:43:54.027748+00:00 mail-ynovcampus postfix/postscreen[791]: CONNECT from [192.169.121.4]:58773 to [172.18.0.2]:25
+2024-12-24T18:44:00.029919+00:00 mail-ynovcampus postfix/postscreen[791]: PASS NEW [192.169.121.4]:58773
+2024-12-24T18:44:00.094547+00:00 mail-ynovcampus postfix/smtpd[809]: connect from unknown[192.169.121.4]
+2024-12-24T18:44:02.314613+00:00 mail-ynovcampus postfix/smtpd[809]: NOQUEUE: reject: RCPT from unknown[192.169.121.4]: 554 5.7.1 <spameri@tiscali.it>: Relay access denied; from=<spameri@tiscali.it> to=<spameri@tiscali.it> proto=ESMTP helo=<host-141-98-10->
+2024-12-24T18:44:02.862958+00:00 mail-ynovcampus postfix/smtpd[809]: disconnect from unknown[192.169.121.4] ehlo=1 mail=1 rcpt=0/1 rset=1 quit=1 commands=4/5
+2024-12-24T18:46:01.342510+00:00 mail-ynovcampus postfix/postscreen[1029]: CONNECT from [188.166.160.243]:49046 to [172.18.0.2]:25
+2024-12-24T18:46:01.342537+00:00 mail-ynovcampus postfix/postscreen[1029]: PASS OLD [188.166.160.243]:49046
+2024-12-24T18:46:01.410780+00:00 mail-ynovcampus postfix/smtpd[1030]: warning: hostname cloudcomputing does not resolve to address 188.166.160.243
+2024-12-24T18:46:01.410810+00:00 mail-ynovcampus postfix/smtpd[1030]: connect from unknown[188.166.160.243]
+2024-12-24T18:46:01.423425+00:00 mail-ynovcampus postfix/smtpd[1030]: Anonymous TLS connection established from unknown[188.166.160.243]: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits) key-exchange X25519 server-signature ECDSA (prime256v1) server-digest SHA256
+2024-12-24T18:46:01.429213+00:00 mail-ynovcampus postfix/smtpd[1030]: disconnect from unknown[188.166.160.243] ehlo=2 starttls=1 quit=1 commands=4
+2024-12-24T18:46:29.487993+00:00 mail-ynovcampus postfix/postscreen[1029]: CONNECT from [141.98.10.193]:54725 to [172.18.0.2]:25
+2024-12-24T18:46:35.488397+00:00 mail-ynovcampus postfix/postscreen[1029]: PASS NEW [141.98.10.193]:54725
+2024-12-24T18:46:35.495196+00:00 mail-ynovcampus postfix/smtpd[1030]: connect from unknown[141.98.10.193]
+2024-12-24T18:46:35.717087+00:00 mail-ynovcampus postfix/smtpd[1030]: NOQUEUE: reject: RCPT from unknown[141.98.10.193]: 554 5.7.1 <spameri@tiscali.it>: Relay access denied; from=<spameri@tiscali.it> to=<spameri@tiscali.it> proto=ESMTP helo=<WIN-CLJ1B0GQ6JP>
+2024-12-24T18:46:35.771864+00:00 mail-ynovcampus postfix/smtpd[1030]: disconnect from unknown[141.98.10.193] ehlo=1 mail=1 rcpt=0/1 rset=1 quit=1 commands=4/5
+2024-12-24T18:47:23.735980+00:00 mail-ynovcampus postfix/postscreen[1029]: CONNECT from [188.166.160.243]:60640 to [172.18.0.2]:25
+2024-12-24T18:47:23.736122+00:00 mail-ynovcampus postfix/postscreen[1029]: PASS OLD [188.166.160.243]:60640
+2024-12-24T18:47:23.739379+00:00 mail-ynovcampus postfix/smtpd[1030]: warning: hostname cloudcomputing does not resolve to address 188.166.160.243
+2024-12-24T18:47:23.739399+00:00 mail-ynovcampus postfix/smtpd[1030]: connect from unknown[188.166.160.243]
+2024-12-24T18:47:23.749491+00:00 mail-ynovcampus postfix/smtpd[1030]: Anonymous TLS connection established from unknown[188.166.160.243]: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits) key-exchange X25519 server-signature ECDSA (prime256v1) server-digest SHA256
+2024-12-24T18:47:23.752433+00:00 mail-ynovcampus postfix/smtpd[1030]: disconnect from unknown[188.166.160.243] ehlo=2 starttls=1 quit=1 commands=4
+2024-12-24T18:48:49.412072+00:00 mail-ynovcampus postfix/postscreen[1029]: CONNECT from [57.129.64.10]:39778 to [172.18.0.2]:25
+2024-12-24T18:48:55.412457+00:00 mail-ynovcampus postfix/postscreen[1029]: PASS NEW [57.129.64.10]:39778
+2024-12-24T18:48:55.417743+00:00 mail-ynovcampus postfix/smtpd[1030]: connect from ns3242012.ip-57-129-64.eu[57.129.64.10]
+2024-12-24T18:48:55.489597+00:00 mail-ynovcampus postfix/smtpd[1030]: lost connection after CONNECT from ns3242012.ip-57-129-64.eu[57.129.64.10]
+2024-12-24T18:48:55.489804+00:00 mail-ynovcampus postfix/smtpd[1030]: disconnect from ns3242012.ip-57-129-64.eu[57.129.64.10] commands=0/0
+2024-12-24T18:52:15.668967+00:00 mail-ynovcampus postfix/anvil[812]: statistics: max connection rate 1/60s for (smtpd:192.169.121.4) at Dec 24 18:44:00
+2024-12-24T18:52:15.668979+00:00 mail-ynovcampus postfix/anvil[812]: statistics: max connection count 1 for (smtpd:192.169.121.4) at Dec 24 18:44:00
+2024-12-24T18:52:15.668985+00:00 mail-ynovcampus postfix/anvil[812]: statistics: max cache size 2 at Dec 24 18:46:35
+2024-12-24T19:16:22.484176+00:00 mail-ynovcampus postfix/submissions/smtpd[4236]: connect from azpdsgb51.stretchoid.com[172.202.251.114]
+2024-12-24T19:16:22.485309+00:00 mail-ynovcampus postfix/submissions/smtpd[4236]: SSL_accept error from azpdsgb51.stretchoid.com[172.202.251.114]: -1
+2024-12-24T19:16:22.485500+00:00 mail-ynovcampus postfix/submissions/smtpd[4236]: warning: TLS library problem: error:0A00010B:SSL routines::wrong version number:../ssl/record/ssl3_record.c:354:
+2024-12-24T19:16:22.493019+00:00 mail-ynovcampus postfix/submissions/smtpd[4236]: lost connection after CONNECT from azpdsgb51.stretchoid.com[172.202.251.114]
+2024-12-24T19:16:22.493082+00:00 mail-ynovcampus postfix/submissions/smtpd[4236]: disconnect from azpdsgb51.stretchoid.com[172.202.251.114] commands=0/0
+2024-12-24T19:32:47.555831+00:00 mail-ynovcampus dovecot: imap-login: Disconnected: Connection closed: SSL_accept() failed: error:0A000102:SSL routines::unsupported protocol (no auth attempts in 1 secs): user=<>, rip=205.210.31.239, lip=172.18.0.2, TLS handshaking: SSL_accept() failed: error:0A000102:SSL routines::unsupported protocol, session=<ZhCNLQkqX8DN0h/v>
+2024-12-24T20:03:55.250372+00:00 mail-ynovcampus postfix/submissions/smtpd[9262]: connect from 66-228-46-234.ip.linodeusercontent.com[66.228.46.234]
+2024-12-24T20:03:57.151427+00:00 mail-ynovcampus postfix/submissions/smtpd[9262]: SSL_accept error from 66-228-46-234.ip.linodeusercontent.com[66.228.46.234]: -1
+2024-12-24T20:03:57.151522+00:00 mail-ynovcampus postfix/submissions/smtpd[9262]: warning: TLS library problem: error:0A0000C1:SSL routines::no shared cipher:../ssl/statem/statem_srvr.c:2220:
+2024-12-24T20:03:57.158633+00:00 mail-ynovcampus postfix/submissions/smtpd[9262]: lost connection after CONNECT from 66-228-46-234.ip.linodeusercontent.com[66.228.46.234]
+2024-12-24T20:03:57.158645+00:00 mail-ynovcampus postfix/submissions/smtpd[9262]: disconnect from 66-228-46-234.ip.linodeusercontent.com[66.228.46.234] commands=0/0
+2024-12-24T20:04:17.621958+00:00 mail-ynovcampus postfix/postscreen[9306]: CONNECT from [188.166.160.243]:53200 to [172.18.0.2]:25
+2024-12-24T20:04:17.621982+00:00 mail-ynovcampus postfix/postscreen[9306]: PASS OLD [188.166.160.243]:53200
+2024-12-24T20:04:17.658873+00:00 mail-ynovcampus postfix/smtpd[9307]: warning: hostname cloudcomputing does not resolve to address 188.166.160.243
+2024-12-24T20:04:17.658925+00:00 mail-ynovcampus postfix/smtpd[9307]: connect from unknown[188.166.160.243]
+2024-12-24T20:04:17.668173+00:00 mail-ynovcampus postfix/smtpd[9307]: Anonymous TLS connection established from unknown[188.166.160.243]: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits) key-exchange X25519 server-signature ECDSA (prime256v1) server-digest SHA256
+2024-12-24T20:04:17.669731+00:00 mail-ynovcampus postfix/smtpd[9307]: disconnect from unknown[188.166.160.243] ehlo=2 starttls=1 quit=1 commands=4
+2024-12-24T20:06:17.059958+00:00 mail-ynovcampus postfix/submission/smtpd[9520]: warning: hostname cloudcomputing does not resolve to address 188.166.160.243
+2024-12-24T20:06:17.059971+00:00 mail-ynovcampus postfix/submission/smtpd[9520]: connect from unknown[188.166.160.243]
+2024-12-24T20:06:17.067120+00:00 mail-ynovcampus postfix/submission/smtpd[9520]: Anonymous TLS connection established from unknown[188.166.160.243]: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits) key-exchange X25519 server-signature ECDSA (prime256v1) server-digest SHA256
+2024-12-24T20:06:17.079847+00:00 mail-ynovcampus dovecot: auth: passwd-file(test@ynovcampus.com,188.166.160.243): Password mismatch (SHA1 of given password: 9b7980)
+2024-12-24T20:06:19.082423+00:00 mail-ynovcampus postfix/submission/smtpd[9520]: warning: unknown[188.166.160.243]: SASL PLAIN authentication failed: (reason unavailable), sasl_username=test@ynovcampus.com
+2024-12-24T20:06:23.090946+00:00 mail-ynovcampus dovecot: auth: passwd-file(test@ynovcampus.com,188.166.160.243): Password mismatch (SHA1 of given password: 9b7980)
+2024-12-24T20:06:25.093595+00:00 mail-ynovcampus postfix/submission/smtpd[9520]: warning: unknown[188.166.160.243]: SASL LOGIN authentication failed: UGFzc3dvcmQ6, sasl_username=test@ynovcampus.com
+2024-12-24T20:06:25.095049+00:00 mail-ynovcampus postfix/submission/smtpd[9520]: disconnect from unknown[188.166.160.243] ehlo=2 starttls=1 auth=0/2 quit=1 commands=4/6
+2024-12-24T20:09:06.801142+00:00 mail-ynovcampus postfix/submission/smtpd[9815]: connect from 45-33-87-15.ip.linodeusercontent.com[45.33.87.15]
+2024-12-24T20:09:07.092129+00:00 mail-ynovcampus postfix/submission/smtpd[9815]: SSL_accept error from 45-33-87-15.ip.linodeusercontent.com[45.33.87.15]: -1
+2024-12-24T20:09:07.092217+00:00 mail-ynovcampus postfix/submission/smtpd[9815]: warning: TLS library problem: error:0A0000C1:SSL routines::no shared cipher:../ssl/statem/statem_srvr.c:2220:
+2024-12-24T20:09:07.092773+00:00 mail-ynovcampus postfix/submission/smtpd[9815]: lost connection after STARTTLS from 45-33-87-15.ip.linodeusercontent.com[45.33.87.15]
+2024-12-24T20:09:07.093064+00:00 mail-ynovcampus postfix/submission/smtpd[9815]: disconnect from 45-33-87-15.ip.linodeusercontent.com[45.33.87.15] ehlo=1 starttls=0/1 commands=1/2
+2024-12-24T20:09:28.268558+00:00 mail-ynovcampus postfix/postfix-script[9996]: refreshing the Postfix mail system
+2024-12-24T20:09:28.279056+00:00 mail-ynovcampus postfix/master[713]: reload -- version 3.7.10, configuration /etc/postfix
+2024-12-24T20:09:28.288187+00:00 mail-ynovcampus postfix/anvil[9267]: statistics: max connection rate 1/60s for (smtpd:188.166.160.243) at Dec 24 20:04:17
+2024-12-24T20:09:28.288201+00:00 mail-ynovcampus postfix/anvil[9267]: statistics: max connection count 1 for (smtpd:188.166.160.243) at Dec 24 20:04:17
+2024-12-24T20:09:28.288206+00:00 mail-ynovcampus postfix/anvil[9267]: statistics: max cache size 1 at Dec 24 20:04:17
+2024-12-24T20:09:28.309009+00:00 mail-ynovcampus dovecot: master: Warning: SIGHUP received - reloading configuration
+2024-12-24T20:09:28.640847+00:00 mail-ynovcampus amavis[673]: (!)Net::Server: 2024/12/24-20:09:28 Re-exec server during HUP
+2024-12-24T20:09:29.103150+00:00 mail-ynovcampus amavis[673]: starting. (warm) /usr/sbin/amavisd at mail-ynovcampus.ddns.net amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2024-12-24T20:09:29.103447+00:00 mail-ynovcampus amavis[673]: perl=5.036000, user=999, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2024-12-24T20:09:29.136691+00:00 mail-ynovcampus amavis[673]: Net::Server: Group Not Defined.  Defaulting to EGID '999 999'
+2024-12-24T20:09:29.136812+00:00 mail-ynovcampus amavis[673]: Net::Server: User Not Defined.  Defaulting to EUID '999'
+2024-12-24T20:09:29.150554+00:00 mail-ynovcampus amavis[673]: No ext program for   .zoo, tried: zoo
+2024-12-24T20:09:29.150953+00:00 mail-ynovcampus amavis[673]: No ext program for   .doc, tried: ripole
+2024-12-24T20:09:29.151223+00:00 mail-ynovcampus amavis[673]: No ext program for   .zst, tried: unzstd
+2024-12-24T20:09:29.151246+00:00 mail-ynovcampus amavis[673]: No decoder for       .F   
+2024-12-24T20:09:29.151254+00:00 mail-ynovcampus amavis[673]: No decoder for       .doc 
+2024-12-24T20:09:29.151262+00:00 mail-ynovcampus amavis[673]: No decoder for       .zoo 
+2024-12-24T20:09:29.151269+00:00 mail-ynovcampus amavis[673]: No decoder for       .zst 
+2024-12-24T20:09:54.266675+00:00 mail-ynovcampus postfix/submission/smtpd[10068]: warning: hostname cloudcomputing does not resolve to address 188.166.160.243
+2024-12-24T20:09:54.266692+00:00 mail-ynovcampus postfix/submission/smtpd[10068]: connect from unknown[188.166.160.243]
+2024-12-24T20:09:54.281041+00:00 mail-ynovcampus postfix/submission/smtpd[10068]: Anonymous TLS connection established from unknown[188.166.160.243]: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits) key-exchange X25519 server-signature ECDSA (prime256v1) server-digest SHA256
+2024-12-24T20:09:54.349464+00:00 mail-ynovcampus postfix/submission/smtpd[10068]: 5546DFAEA4: client=unknown[188.166.160.243], sasl_method=PLAIN, sasl_username=test2@ynovcampus.com
+2024-12-24T20:09:54.352076+00:00 mail-ynovcampus postfix/sender-cleanup/cleanup[10076]: 5546DFAEA4: replace: header MIME-Version: 1.0 from unknown[188.166.160.243]; from=<test2@ynovcampus.com> to=<sinaure@gmail.com> proto=ESMTP helo=<[127.0.1.1]>: MIME-Version: 1.0
+2024-12-24T20:09:54.352092+00:00 mail-ynovcampus postfix/sender-cleanup/cleanup[10076]: 5546DFAEA4: message-id=<>
+2024-12-24T20:09:54.392099+00:00 mail-ynovcampus opendkim[608]: 5546DFAEA4: can't determine message sender; accepting
+2024-12-24T20:09:54.435639+00:00 mail-ynovcampus postfix/qmgr[10002]: 5546DFAEA4: from=<test2@ynovcampus.com>, size=198, nrcpt=1 (queue active)
+2024-12-24T20:09:54.437361+00:00 mail-ynovcampus postfix/submission/smtpd[10068]: disconnect from unknown[188.166.160.243] ehlo=3 starttls=1 auth=1 mail=1 rcpt=1 data=1 quit=1 commands=9
+2024-12-24T20:09:54.621350+00:00 mail-ynovcampus postfix/smtpd-amavis/smtpd[10082]: connect from localhost[127.0.0.1]
+2024-12-24T20:09:54.632128+00:00 mail-ynovcampus postfix/smtpd-amavis/smtpd[10082]: 9A34DFAF06: client=localhost[127.0.0.1]
+2024-12-24T20:09:54.635958+00:00 mail-ynovcampus postfix/cleanup[10083]: 9A34DFAF06: message-id=<DSNVVyNDb69EL17@mail-ynovcampus.ddns.net>
+2024-12-24T20:09:54.641561+00:00 mail-ynovcampus postfix/qmgr[10002]: 9A34DFAF06: from=<>, size=2440, nrcpt=1 (queue active)
+2024-12-24T20:09:54.655897+00:00 mail-ynovcampus amavis[10022]: (10022-01) Blocked BAD-HEADER-0 {BouncedOpenRelay,Quarantined}, [188.166.160.243]:46562 [188.166.160.243] <test2@ynovcampus.com> -> <sinaure@gmail.com>, quarantine: V/badh-VVyNDb69EL17, Queue-ID: 5546DFAEA4, mail_id: VVyNDb69EL17, Hits: -, size: 260, 204 ms
+2024-12-24T20:09:54.659492+00:00 mail-ynovcampus postfix/smtp-amavis/smtp[10080]: 5546DFAEA4: to=<sinaure@gmail.com>, relay=127.0.0.1[127.0.0.1]:10024, delay=0.32, delays=0.1/0.02/0.01/0.2, dsn=2.5.0, status=sent (250 2.5.0 Ok, id=10022-01, BOUNCE)
+2024-12-24T20:09:54.661034+00:00 mail-ynovcampus postfix/qmgr[10002]: 5546DFAEA4: removed
+2024-12-24T20:09:54.672929+00:00 mail-ynovcampus dovecot: lmtp(10085): Connect from local
+2024-12-24T20:09:54.685714+00:00 mail-ynovcampus dovecot: lmtp(test2@ynovcampus.com)<10085><ajIXKBIVa2dlJwAAM3LXew>: sieve: msgid=<DSNVVyNDb69EL17@mail-ynovcampus.ddns.net>: stored mail into mailbox 'INBOX'
+2024-12-24T20:09:54.685727+00:00 mail-ynovcampus dovecot: lmtp(10085): Disconnect from local: Logged out (state=READY)
+2024-12-24T20:09:54.685795+00:00 mail-ynovcampus postfix/lmtp[10084]: 9A34DFAF06: to=<test2@ynovcampus.com>, relay=mail-ynovcampus.ddns.net[/var/run/dovecot/lmtp], delay=0.06, delays=0.02/0.01/0.02/0.01, dsn=2.0.0, status=sent (250 2.0.0 <test2@ynovcampus.com> ajIXKBIVa2dlJwAAM3LXew Saved)
+2024-12-24T20:09:54.686064+00:00 mail-ynovcampus postfix/qmgr[10002]: 9A34DFAF06: removed
+2024-12-24T20:13:14.618035+00:00 mail-ynovcampus postfix/anvil[10071]: statistics: max connection rate 1/60s for (submission:188.166.160.243) at Dec 24 20:09:54
+2024-12-24T20:13:14.618051+00:00 mail-ynovcampus postfix/anvil[10071]: statistics: max connection count 1 for (submission:188.166.160.243) at Dec 24 20:09:54
+2024-12-24T20:13:14.618059+00:00 mail-ynovcampus postfix/anvil[10071]: statistics: max cache size 1 at Dec 24 20:09:54
+2024-12-24T20:14:54.701183+00:00 mail-ynovcampus postfix/smtpd-amavis/smtpd[10082]: timeout after END-OF-MESSAGE from localhost[127.0.0.1]
+2024-12-24T20:14:54.701207+00:00 mail-ynovcampus postfix/smtpd-amavis/smtpd[10082]: disconnect from localhost[127.0.0.1] ehlo=1 mail=1 rcpt=1 data=1 commands=4
+2024-12-24T20:17:56.301420+00:00 mail-ynovcampus postfix/postscreen[10932]: CONNECT from [45.33.94.215]:61000 to [172.18.0.2]:25
+2024-12-24T20:18:02.301954+00:00 mail-ynovcampus postfix/postscreen[10932]: PASS NEW [45.33.94.215]:61000
+2024-12-24T20:18:02.360112+00:00 mail-ynovcampus postfix/smtpd[10942]: connect from 45-33-94-215.ip.linodeusercontent.com[45.33.94.215]
+2024-12-24T20:18:02.575152+00:00 mail-ynovcampus postfix/smtpd[10942]: lost connection after AUTH from 45-33-94-215.ip.linodeusercontent.com[45.33.94.215]
+2024-12-24T20:18:02.575377+00:00 mail-ynovcampus postfix/smtpd[10942]: disconnect from 45-33-94-215.ip.linodeusercontent.com[45.33.94.215] auth=0/1 commands=0/1
+2024-12-24T20:18:54.803972+00:00 mail-ynovcampus dovecot: imap-login: Disconnected: Connection closed (no auth attempts in 0 secs): user=<>, rip=97.107.129.200, lip=172.18.0.2, session=<Pet90gkqSO5ha4HI>
+2024-12-24T20:19:16.386341+00:00 mail-ynovcampus dovecot: master: Dovecot v2.3.19.1 (9b53102964) starting up for imap, lmtp
+2024-12-24T20:19:17.118381+00:00 mail-ynovcampus opendkim[143]: OpenDKIM Filter v2.11.0 starting (args: -f)
+2024-12-24T20:19:17.369330+00:00 mail-ynovcampus opendmarc[158]: OpenDMARC Filter v1.4.2 starting (args: -f -p inet:8893@localhost -P /var/run/opendmarc/opendmarc.pid)
+2024-12-24T20:19:17.369458+00:00 mail-ynovcampus opendmarc[158]: additional trusted authentication services: mail-ynovcampus.ddns.net
+2024-12-24T20:19:18.382726+00:00 mail-ynovcampus postfix/postfix-script[244]: starting the Postfix mail system
+2024-12-24T20:19:18.416638+00:00 mail-ynovcampus postfix/master[245]: daemon started -- version 3.7.10, configuration /etc/postfix
+2024-12-24T20:19:19.171022+00:00 mail-ynovcampus amavis[204]: starting. /usr/sbin/amavisd at mail-ynovcampus.ddns.net amavis-2.13.0 (20230106), Unicode aware, LC_CTYPE="C.UTF-8"
+2024-12-24T20:19:19.171075+00:00 mail-ynovcampus amavis[204]: perl=5.036000, user=, EUID: 999 (999);  group=(), EGID: 999 999 (999 999)
+2024-12-24T20:19:19.201168+00:00 mail-ynovcampus amavis[204]: Net::Server: Group Not Defined.  Defaulting to EGID '999 999'
+2024-12-24T20:19:19.201211+00:00 mail-ynovcampus amavis[204]: Net::Server: User Not Defined.  Defaulting to EUID '999'
+2024-12-24T20:19:19.215019+00:00 mail-ynovcampus amavis[204]: No ext program for   .zoo, tried: zoo
+2024-12-24T20:19:19.215093+00:00 mail-ynovcampus amavis[204]: No ext program for   .doc, tried: ripole
+2024-12-24T20:19:19.215593+00:00 mail-ynovcampus amavis[204]: No ext program for   .zst, tried: unzstd
+2024-12-24T20:19:19.215630+00:00 mail-ynovcampus amavis[204]: No decoder for       .F   
+2024-12-24T20:19:19.215641+00:00 mail-ynovcampus amavis[204]: No decoder for       .doc 
+2024-12-24T20:19:19.215652+00:00 mail-ynovcampus amavis[204]: No decoder for       .zoo 
+2024-12-24T20:19:19.215665+00:00 mail-ynovcampus amavis[204]: No decoder for       .zst 
+2024-12-24T20:19:21.796053+00:00 mail-ynovcampus dovecot: imap-login: Disconnected: Connection closed: SSL_accept() failed: error:0A0000C1:SSL routines::no shared cipher (no auth attempts in 2 secs): user=<>, rip=97.107.129.200, lip=172.18.0.2, TLS handshaking: SSL_accept() failed: error:0A0000C1:SSL routines::no shared cipher, session=<T8gZ1AkqSO5ha4HI>
+2024-12-24T20:19:29.354649+00:00 mail-ynovcampus postfix/submission/smtpd[313]: warning: hostname cloudcomputing does not resolve to address 188.166.160.243
+2024-12-24T20:19:29.354816+00:00 mail-ynovcampus postfix/submission/smtpd[313]: connect from unknown[188.166.160.243]
+2024-12-24T20:19:29.369622+00:00 mail-ynovcampus postfix/submission/smtpd[313]: Anonymous TLS connection established from unknown[188.166.160.243]: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits) key-exchange X25519 server-signature ECDSA (prime256v1) server-digest SHA256
+2024-12-24T20:19:29.398417+00:00 mail-ynovcampus postfix/submission/smtpd[313]: 613C3FAEA6: client=unknown[188.166.160.243], sasl_method=PLAIN, sasl_username=test2@ynovcampus.com
+2024-12-24T20:19:29.401077+00:00 mail-ynovcampus postfix/sender-cleanup/cleanup[318]: 613C3FAEA6: replace: header MIME-Version: 1.0 from unknown[188.166.160.243]; from=<test2@ynovcampus.com> to=<sinaure@gmail.com> proto=ESMTP helo=<[127.0.1.1]>: MIME-Version: 1.0
+2024-12-24T20:19:29.401088+00:00 mail-ynovcampus postfix/sender-cleanup/cleanup[318]: 613C3FAEA6: message-id=<>
+2024-12-24T20:19:29.441716+00:00 mail-ynovcampus opendkim[143]: 613C3FAEA6: can't determine message sender; accepting
+2024-12-24T20:19:29.485354+00:00 mail-ynovcampus postfix/qmgr[247]: 613C3FAEA6: from=<test2@ynovcampus.com>, size=198, nrcpt=1 (queue active)
+2024-12-24T20:19:29.486646+00:00 mail-ynovcampus postfix/submission/smtpd[313]: disconnect from unknown[188.166.160.243] ehlo=3 starttls=1 auth=1 mail=1 rcpt=1 data=1 quit=1 commands=9
+2024-12-24T20:19:29.659098+00:00 mail-ynovcampus postfix/smtpd-amavis/smtpd[321]: connect from localhost[127.0.0.1]
+2024-12-24T20:19:29.667563+00:00 mail-ynovcampus postfix/smtpd-amavis/smtpd[321]: A2F33FAF13: client=localhost[127.0.0.1]
+2024-12-24T20:19:29.670829+00:00 mail-ynovcampus postfix/cleanup[322]: A2F33FAF13: message-id=<DSNDlo1nG72lLwO@mail-ynovcampus.ddns.net>
+2024-12-24T20:19:29.673500+00:00 mail-ynovcampus postfix/qmgr[247]: A2F33FAF13: from=<>, size=2430, nrcpt=1 (queue active)
+2024-12-24T20:19:29.688477+00:00 mail-ynovcampus amavis[294]: (00294-01) Blocked BAD-HEADER-0 {BouncedOpenRelay,Quarantined}, [188.166.160.243]:47344 [188.166.160.243] <test2@ynovcampus.com> -> <sinaure@gmail.com>, quarantine: D/badh-Dlo1nG72lLwO, Queue-ID: 613C3FAEA6, mail_id: Dlo1nG72lLwO, Hits: -, size: 260, 190 ms
+2024-12-24T20:19:29.690989+00:00 mail-ynovcampus postfix/smtp-amavis/smtp[319]: 613C3FAEA6: to=<sinaure@gmail.com>, relay=127.0.0.1[127.0.0.1]:10024, delay=0.3, delays=0.1/0.01/0.01/0.19, dsn=2.5.0, status=sent (250 2.5.0 Ok, id=00294-01, BOUNCE)
+2024-12-24T20:19:29.693376+00:00 mail-ynovcampus postfix/qmgr[247]: 613C3FAEA6: removed
+2024-12-24T20:19:29.713257+00:00 mail-ynovcampus dovecot: lmtp(324): Connect from local
+2024-12-24T20:19:29.729843+00:00 mail-ynovcampus dovecot: lmtp(test2@ynovcampus.com)<324><79F/KlEXa2dEAQAAM3LXew>: sieve: msgid=<DSNDlo1nG72lLwO@mail-ynovcampus.ddns.net>: stored mail into mailbox 'INBOX'
+2024-12-24T20:19:29.729859+00:00 mail-ynovcampus dovecot: lmtp(324): Disconnect from local: Logged out (state=READY)
+2024-12-24T20:19:29.729980+00:00 mail-ynovcampus postfix/lmtp[323]: A2F33FAF13: to=<test2@ynovcampus.com>, relay=mail-ynovcampus.ddns.net[/var/run/dovecot/lmtp], delay=0.07, delays=0.01/0.01/0.03/0.02, dsn=2.0.0, status=sent (250 2.0.0 <test2@ynovcampus.com> 79F/KlEXa2dEAQAAM3LXew Saved)
+2024-12-24T20:19:29.731218+00:00 mail-ynovcampus postfix/qmgr[247]: A2F33FAF13: removed
+2024-12-24T20:20:53.560327+00:00 mail-ynovcampus dovecot: master: Dovecot v2.3.19.1 (9b53102964) starting up for imap, lmtp
+2024-12-24T20:20:54.351904+00:00 mail-ynovcampus opendkim[615]: OpenDKIM Filter v2.11.0 starting (args: -f)
+2024-12-24T20:20:54.653070+00:00 mail-ynovcampus opendmarc[630]: OpenDMARC Filter v1.4.2 starting (args: -f -p inet:8893@localhost -P /var/run/opendmarc/opendmarc.pid)
+2024-12-24T20:20:54.653083+00:00 mail-ynovcampus opendmarc[630]: additional trusted authentication services: mail-ynovcampus.ddns.net
+2024-12-24T20:20:55.570865+00:00 mail-ynovcampus postfix/postfix-script[748]: starting the Postfix mail system
+2024-12-24T20:20:55.597540+00:00 mail-ynovcampus postfix/master[749]: daemon started -- version 3.7.10, configuration /etc/postfix
+2024-12-24T20:21:10.461873+00:00 mail-ynovcampus postfix/submission/smtpd[773]: warning: hostname cloudcomputing does not resolve to address 188.166.160.243
+2024-12-24T20:21:10.461924+00:00 mail-ynovcampus postfix/submission/smtpd[773]: connect from unknown[188.166.160.243]
+2024-12-24T20:21:10.476804+00:00 mail-ynovcampus postfix/submission/smtpd[773]: Anonymous TLS connection established from unknown[188.166.160.243]: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits) key-exchange X25519 server-signature ECDSA (prime256v1) server-digest SHA256
+2024-12-24T20:21:10.516302+00:00 mail-ynovcampus postfix/submission/smtpd[773]: 7DFC0FAE97: client=unknown[188.166.160.243], sasl_method=PLAIN, sasl_username=test2@ynovcampus.com
+2024-12-24T20:21:10.518553+00:00 mail-ynovcampus postfix/sender-cleanup/cleanup[779]: 7DFC0FAE97: replace: header MIME-Version: 1.0 from unknown[188.166.160.243]; from=<test2@ynovcampus.com> to=<sinaure@gmail.com> proto=ESMTP helo=<[127.0.1.1]>: MIME-Version: 1.0
+2024-12-24T20:21:10.518565+00:00 mail-ynovcampus postfix/sender-cleanup/cleanup[779]: 7DFC0FAE97: message-id=<>
+2024-12-24T20:21:10.558394+00:00 mail-ynovcampus opendkim[615]: 7DFC0FAE97: can't determine message sender; accepting
+2024-12-24T20:21:10.601366+00:00 mail-ynovcampus postfix/qmgr[751]: 7DFC0FAE97: from=<test2@ynovcampus.com>, size=198, nrcpt=1 (queue active)
+2024-12-24T20:21:10.602314+00:00 mail-ynovcampus postfix/submission/smtpd[773]: disconnect from unknown[188.166.160.243] ehlo=3 starttls=1 auth=1 mail=1 rcpt=1 data=1 quit=1 commands=9
+2024-12-24T20:21:10.636198+00:00 mail-ynovcampus postfix/smtp[780]: connect to gmail-smtp-in.l.google.com[2a00:1450:4025:402::1a]:25: Network is unreachable
+2024-12-24T20:21:40.646651+00:00 mail-ynovcampus postfix/smtp[780]: connect to gmail-smtp-in.l.google.com[142.250.102.27]:25: Connection timed out
+2024-12-24T20:22:10.654453+00:00 mail-ynovcampus postfix/smtp[780]: connect to alt1.gmail-smtp-in.l.google.com[142.251.9.26]:25: Connection timed out
+2024-12-24T20:22:10.654514+00:00 mail-ynovcampus postfix/smtp[780]: connect to alt1.gmail-smtp-in.l.google.com[2a00:1450:4025:c03::1b]:25: Network is unreachable
+2024-12-24T20:22:10.654564+00:00 mail-ynovcampus postfix/smtp[780]: connect to alt2.gmail-smtp-in.l.google.com[2a00:1450:4010:c1c::1b]:25: Network is unreachable
+2024-12-24T20:22:10.663410+00:00 mail-ynovcampus postfix/smtp[780]: 7DFC0FAE97: to=<sinaure@gmail.com>, relay=none, delay=60, delays=0.1/0.02/60/0, dsn=4.4.1, status=deferred (connect to alt2.gmail-smtp-in.l.google.com[2a00:1450:4010:c1c::1b]:25: Network is unreachable)
+2024-12-24T20:24:03.492822+00:00 mail-ynovcampus postfix/submissions/smtpd[1089]: connect from ec2-18-219-11-104.us-east-2.compute.amazonaws.com[18.219.11.104]
+2024-12-24T20:24:04.243541+00:00 mail-ynovcampus postfix/submission/smtpd[1094]: connect from ec2-18-219-11-104.us-east-2.compute.amazonaws.com[18.219.11.104]
+2024-12-24T20:24:04.436838+00:00 mail-ynovcampus postfix/submissions/smtpd[1089]: SSL_accept error from ec2-18-219-11-104.us-east-2.compute.amazonaws.com[18.219.11.104]: lost connection
+2024-12-24T20:24:04.437803+00:00 mail-ynovcampus postfix/submissions/smtpd[1089]: lost connection after CONNECT from ec2-18-219-11-104.us-east-2.compute.amazonaws.com[18.219.11.104]
+2024-12-24T20:24:04.437822+00:00 mail-ynovcampus postfix/submissions/smtpd[1089]: disconnect from ec2-18-219-11-104.us-east-2.compute.amazonaws.com[18.219.11.104] commands=0/0
+2024-12-24T20:24:04.618022+00:00 mail-ynovcampus postfix/submission/smtpd[1094]: lost connection after CONNECT from ec2-18-219-11-104.us-east-2.compute.amazonaws.com[18.219.11.104]
+2024-12-24T20:24:04.618235+00:00 mail-ynovcampus postfix/submission/smtpd[1094]: disconnect from ec2-18-219-11-104.us-east-2.compute.amazonaws.com[18.219.11.104] commands=0/0
+2024-12-24T20:24:04.649386+00:00 mail-ynovcampus dovecot: imap-login: Disconnected: Connection closed (no auth attempts in 0 secs): user=<>, rip=18.219.11.104, lip=172.18.0.2, TLS handshaking: Connection closed, session=<Esn15AkqjrUS2wto>
+2024-12-24T20:24:04.658772+00:00 mail-ynovcampus dovecot: imap-login: Disconnected: Connection closed (no auth attempts in 0 secs): user=<>, rip=18.219.11.104, lip=172.18.0.2, session=<vez15AkqQtwS2wto>
+2024-12-24T20:27:24.815295+00:00 mail-ynovcampus postfix/anvil[776]: statistics: max connection rate 1/60s for (submission:188.166.160.243) at Dec 24 20:21:10
+2024-12-24T20:27:24.815307+00:00 mail-ynovcampus postfix/anvil[776]: statistics: max connection count 1 for (submission:188.166.160.243) at Dec 24 20:21:10
+2024-12-24T20:27:24.815312+00:00 mail-ynovcampus postfix/anvil[776]: statistics: max cache size 1 at Dec 24 20:21:10
+2024-12-24T20:30:55.786200+00:00 mail-ynovcampus postfix/qmgr[751]: 7DFC0FAE97: from=<test2@ynovcampus.com>, size=198, nrcpt=1 (queue active)
+2024-12-24T20:31:25.856471+00:00 mail-ynovcampus postfix/smtp[1826]: connect to gmail-smtp-in.l.google.com[142.250.102.26]:25: Connection timed out
+2024-12-24T20:31:25.856551+00:00 mail-ynovcampus postfix/smtp[1826]: connect to gmail-smtp-in.l.google.com[2a00:1450:4025:402::1a]:25: Network is unreachable
+2024-12-24T20:31:25.856591+00:00 mail-ynovcampus postfix/smtp[1826]: connect to alt1.gmail-smtp-in.l.google.com[2a00:1450:4025:c03::1a]:25: Network is unreachable
+2024-12-24T20:31:55.871556+00:00 mail-ynovcampus postfix/smtp[1826]: connect to alt1.gmail-smtp-in.l.google.com[142.251.9.26]:25: Connection timed out
+2024-12-24T20:32:25.888238+00:00 mail-ynovcampus postfix/smtp[1826]: connect to alt2.gmail-smtp-in.l.google.com[142.250.150.26]:25: Connection timed out
+2024-12-24T20:32:25.898429+00:00 mail-ynovcampus postfix/smtp[1826]: 7DFC0FAE97: to=<sinaure@gmail.com>, relay=none, delay=675, delays=585/0.03/90/0, dsn=4.4.1, status=deferred (connect to alt2.gmail-smtp-in.l.google.com[142.250.150.26]:25: Connection timed out)
+2024-12-24T20:34:52.912805+00:00 mail-ynovcampus postfix/submission/smtpd[2247]: warning: hostname cloudcomputing does not resolve to address 188.166.160.243
+2024-12-24T20:34:52.912815+00:00 mail-ynovcampus postfix/submission/smtpd[2247]: connect from unknown[188.166.160.243]
+2024-12-24T20:34:52.925448+00:00 mail-ynovcampus postfix/submission/smtpd[2247]: Anonymous TLS connection established from unknown[188.166.160.243]: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits) key-exchange X25519 server-signature ECDSA (prime256v1) server-digest SHA256
+2024-12-24T20:34:52.958610+00:00 mail-ynovcampus postfix/submission/smtpd[2247]: E9F0CFAE9F: client=unknown[188.166.160.243], sasl_method=PLAIN, sasl_username=test2@ynovcampus.com
+2024-12-24T20:34:52.960974+00:00 mail-ynovcampus postfix/sender-cleanup/cleanup[2252]: E9F0CFAE9F: replace: header MIME-Version: 1.0 from unknown[188.166.160.243]; from=<test2@ynovcampus.com> to=<test2@ynovcampus.com> proto=ESMTP helo=<[127.0.1.1]>: MIME-Version: 1.0
+2024-12-24T20:34:52.960985+00:00 mail-ynovcampus postfix/sender-cleanup/cleanup[2252]: E9F0CFAE9F: message-id=<>
+2024-12-24T20:34:53.000284+00:00 mail-ynovcampus opendkim[615]: E9F0CFAE9F: can't determine message sender; accepting
+2024-12-24T20:34:53.042800+00:00 mail-ynovcampus postfix/qmgr[751]: E9F0CFAE9F: from=<test2@ynovcampus.com>, size=198, nrcpt=1 (queue active)
+2024-12-24T20:34:53.045351+00:00 mail-ynovcampus postfix/submission/smtpd[2247]: disconnect from unknown[188.166.160.243] ehlo=3 starttls=1 auth=1 mail=1 rcpt=1 data=1 quit=1 commands=9
+2024-12-24T20:34:53.070209+00:00 mail-ynovcampus dovecot: lmtp(2254): Connect from local
+2024-12-24T20:34:53.078368+00:00 mail-ynovcampus postfix/lmtp[2253]: E9F0CFAE9F: to=<test2@ynovcampus.com>, relay=mail-ynovcampus.ddns.net[/var/run/dovecot/lmtp], delay=0.13, delays=0.09/0.01/0.02/0.01, dsn=2.0.0, status=sent (250 2.0.0 <test2@ynovcampus.com> yzUsBO0aa2fOCAAAM3LXew Saved)
+2024-12-24T20:34:53.078453+00:00 mail-ynovcampus dovecot: lmtp(test2@ynovcampus.com)<2254><yzUsBO0aa2fOCAAAM3LXew>: sieve: msgid=unspecified: stored mail into mailbox 'INBOX'
+2024-12-24T20:34:53.078766+00:00 mail-ynovcampus postfix/qmgr[751]: E9F0CFAE9F: removed
+2024-12-24T20:34:53.078812+00:00 mail-ynovcampus dovecot: lmtp(2254): Disconnect from local: Logged out (state=READY)
+2024-12-24T20:38:13.242699+00:00 mail-ynovcampus postfix/anvil[2249]: statistics: max connection rate 1/60s for (submission:188.166.160.243) at Dec 24 20:34:52
+2024-12-24T20:38:13.242715+00:00 mail-ynovcampus postfix/anvil[2249]: statistics: max connection count 1 for (submission:188.166.160.243) at Dec 24 20:34:52
+2024-12-24T20:38:13.242722+00:00 mail-ynovcampus postfix/anvil[2249]: statistics: max cache size 1 at Dec 24 20:34:52
+2024-12-24T20:43:14.517996+00:00 mail-ynovcampus postfix/postscreen[3134]: CONNECT from [192.169.121.4]:57799 to [172.18.0.2]:25
+2024-12-24T20:43:14.518015+00:00 mail-ynovcampus postfix/postscreen[3134]: PASS OLD [192.169.121.4]:57799
+2024-12-24T20:43:14.548839+00:00 mail-ynovcampus postfix/smtpd[3135]: connect from unknown[192.169.121.4]
+2024-12-24T20:43:16.708476+00:00 mail-ynovcampus postfix/smtpd[3135]: NOQUEUE: reject: RCPT from unknown[192.169.121.4]: 554 5.7.1 <spameri@tiscali.it>: Relay access denied; from=<spameri@tiscali.it> to=<spameri@tiscali.it> proto=ESMTP helo=<host-141-98-10->
+2024-12-24T20:43:17.244385+00:00 mail-ynovcampus postfix/smtpd[3135]: disconnect from unknown[192.169.121.4] ehlo=1 mail=1 rcpt=0/1 rset=1 quit=1 commands=4/5
