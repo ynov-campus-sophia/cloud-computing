@@ -5,7 +5,6 @@ RUN pip install -r requirements.txt
 
 ADD main.py .
 ADD model.py .
-
 ENTRYPOINT ["python"]
 
 CMD ["model.py"]
