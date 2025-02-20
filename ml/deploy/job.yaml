@@ -18,7 +18,7 @@ spec:
           claimName: models-data
       containers:
       - name: train
-        image: harbor.shared.acrist-services.com/dsy/ml/train:1.0.3
+        image: harbor.shared.acrist-services.com/dsy/ml/train:1.0.7
         volumeMounts:
         - name: data
           mountPath: /usr/local/models

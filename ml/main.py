@@ -52,8 +52,10 @@ input_sequences = pad_sequences(input_sequences, maxlen=max_seq_length, padding=
 
 vocab_size = len(tokenizer.word_index) + 1  # To account for padding token
 
+import keras
+
 model = Sequential()
-model = tensorflow.keras.saving.load_model('/usr/local/models/llm.keras')
+model = keras.saving.load_model('/usr/local/models/llm.keras')
 
 def generate_text(seed_text, next_words):
     for _ in range(next_words):
@@ -77,5 +79,14 @@ def generate():
     generated_text = generate_text(seed_text, next_words)
     return jsonify({'generated_text': generated_text})
 
+@app.route('/health')
+def health():
+    resp = jsonify(health="healthy")
+    resp.status_code = 200
+    return resp
+
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+
