@@ -1,0 +1,12 @@
+{
+  "name": "hello",
+  "type": "module",
+  "scripts": {
+    "build": "do-functions ./packages ./build",
+    "serve": "do-functions-server ./build"
+  },
+  "dependencies": {
+    "do-functions": "^1.3.0",
+    "do-functions-server": "^1.4.0"
+  }
+}
