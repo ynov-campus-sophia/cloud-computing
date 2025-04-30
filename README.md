@@ -9,3 +9,22 @@ pyenv  activate cloudcomputing
 
 https://docker-mailserver.github.io/docker-mailserver/latest/config/advanced/mail-forwarding/gmail-smtp/
 ```
+
+# doctl
+
+```
+https://docs.digitalocean.com/reference/doctl/how-to/install/
+
+cd ~
+wget https://github.com/digitalocean/doctl/releases/download/v1.124.0/doctl-1.124.0-linux-amd64.tar.gz
+
+tar xf ~/doctl-1.124.0-linux-amd64.tar.gz
+
+sudo mv ~/doctl /usr/local/bin
+
+doctl auth init
+
+doctl serverless install
+
+
+```
