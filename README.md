@@ -7,7 +7,6 @@ pyenv install 3.10.4
 pyenv virtualenv 3.10.4 cloudcomputing
 pyenv  activate cloudcomputing
 
-https://docker-mailserver.github.io/docker-mailserver/latest/config/advanced/mail-forwarding/gmail-smtp/
 ```
 
 # doctl
@@ -24,7 +23,6 @@ sudo mv ~/doctl /usr/local/bin
 
 doctl auth init
 
-doctl serverless install
-
-
 ```
+
+#doctl serverless install

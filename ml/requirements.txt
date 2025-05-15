@@ -1,6 +1,0 @@
-tensorflow
-nltk
-numpy
-pandas
-matplotlib
-flask
