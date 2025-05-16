@@ -1,0 +1,21 @@
+name: Example Workflow
+on:
+  push:
+    paths:
+    - 'scripts/*'
+    - '.github/workflows/*.yaml'
+    - 'boilerplate/*'
+jobs:
+  example-job:
+    name: shell
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: List
+        run: ls -a
+      - name: where I am
+        run: pwd
+      - name: Run example script
+        run: bash ./scripts/example.sh Ynov
+        env:
+          MA_VARIABLE: production
