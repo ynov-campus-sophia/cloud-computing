@@ -16,4 +16,6 @@ jobs:
         with:
           token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
       - name: list
+        run: doctl serverless connect
+      - name: list
         run: doctl sls fn get ynov/hello --url 
