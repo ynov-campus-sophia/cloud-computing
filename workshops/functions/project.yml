@@ -1,0 +1,7 @@
+packages:
+  - name: ynov
+    functions:
+      - name: hello
+        binary: false
+        runtime: 'nodejs:default'
+        web: true

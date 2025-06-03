@@ -1,0 +1,18 @@
+[
+  {
+    "apihost": "https://faas-ams3-2a2df116.doserverless.co",
+    "namespace": "fn-613b1122-bbb8-4c61-a268-04872d552622",
+    "packageVersions": {
+      "ynov": {
+        "version": "0.0.1",
+        "digest": "3cc4c19b4c73f248772989abed4bcaedc98243ec8d6a1fe06ed1700eb2f7e70a"
+      }
+    },
+    "actionVersions": {
+      "ynov/hello": {
+        "version": "0.0.1",
+        "digest": "4ce1143122f66e1ecaaa507f1aa16dff0deb3e6821ab07cc84c64b0221871de0"
+      }
+    }
+  }
+]
