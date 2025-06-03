@@ -27,3 +27,9 @@ https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-00951930-c138-415b-9676
 ```
 https://github.com/digitalocean/action-doctl
 ```
+
+# ideas of functions to implement
+
+1. ROUTING TRACING:  https://www.geeksforgeeks.org/traceroute-implementation-on-python/
+2. EMAIL: https://www.digitalocean.com/community/tutorials/sending-confirmation-emails-with-resend
+3. SECURITY SCAN: https://www.geeksforgeeks.org/webdork-python-tool-to-automate-dorking/
