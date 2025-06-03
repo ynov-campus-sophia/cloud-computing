@@ -1,0 +1,19 @@
+name: deploy do
+on:
+  push:
+    paths:
+    - 'scripts/*'
+    - '.github/workflows/*.yaml'
+    - 'workshops/*'
+jobs:
+  example-job:
+    name: shell
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install doctl
+        uses: digitalocean/action-doctl@v2
+        with:
+          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+      - name: list
+        run: doctl sls fn get ynov/hello --url 

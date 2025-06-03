@@ -21,3 +21,9 @@ https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-00951930-c138-415b-9676
 2. deploy it
 3. automate the deployment via github workflows
 ```
+
+# how to DOCTL ACTIONS
+
+```
+https://github.com/digitalocean/action-doctl
+```
