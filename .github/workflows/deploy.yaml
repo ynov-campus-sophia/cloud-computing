@@ -7,7 +7,7 @@ on:
     - 'workshops/*'
 jobs:
   example-job:
-    name: shell
+    name: deploy-do
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
