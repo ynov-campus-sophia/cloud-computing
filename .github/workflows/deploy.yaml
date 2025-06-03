@@ -18,6 +18,6 @@ jobs:
       - name: install
         run: doctl serverless install
       - name: connect
-        run: doctl serverless connect
+        run: doctl serverless connect fn-00951930-c138-415b-9676-169dc3854a8c
       - name: list
         run: doctl sls fn get ynov/hello --url 
