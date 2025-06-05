@@ -24,4 +24,4 @@ jobs:
       - name: deploy
         run: cd workshops/functions && doctl serverless deploy  . --remote-build   
       - name: list
-        run: doctl sls fn get ynov/hello --url 
+        run: doctl sls fn get ynov/hello_aureliano --url 
