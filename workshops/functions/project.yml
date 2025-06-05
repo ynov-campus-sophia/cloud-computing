@@ -1,7 +1,8 @@
 packages:
   - name: ynov
     functions:
-      - name: hello_thibaut
+      - name: traceroute_thibaut
+        description: 'Traceroute function for Thibaut'
         binary: false
-        runtime: 'nodejs:default'
+        runtime: 'python:default'
         web: true
