@@ -5,3 +5,7 @@ packages:
         binary: false
         runtime: 'nodejs:default'
         web: true
+      - name: hello2
+        binary: false
+        runtime: 'nodejs:default'
+        web: true

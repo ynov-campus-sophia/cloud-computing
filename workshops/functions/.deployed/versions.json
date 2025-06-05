@@ -20,14 +20,18 @@
     "namespace": "fn-00951930-c138-415b-9676-169dc3854a8c",
     "packageVersions": {
       "ynov": {
-        "version": "0.0.1",
-        "digest": "3cc4c19b4c73f248772989abed4bcaedc98243ec8d6a1fe06ed1700eb2f7e70a"
+        "version": "0.0.4",
+        "digest": "86d27806f856ea1f833ff22887712f2d5792ceb1a16f5bd464eb16aa1f543dd7"
       }
     },
     "actionVersions": {
       "ynov/hello": {
-        "version": "0.0.1",
+        "version": "0.0.4",
         "digest": "4ce1143122f66e1ecaaa507f1aa16dff0deb3e6821ab07cc84c64b0221871de0"
+      },
+      "ynov/hello2": {
+        "version": "0.0.1",
+        "digest": "a7e4de9c6a4d66e6b67ae66a571c0658608fd65f6a23102a4bb216544e7a6d47"
       }
     }
   }
