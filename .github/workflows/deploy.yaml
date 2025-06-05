@@ -23,5 +23,4 @@ jobs:
         run: doctl sls fn get ynov/hello_sacha --url
       - name: cd
         run: cd workshops/functions
-      - name: deploy
         run: doctl serverless deploy . --remote-build
