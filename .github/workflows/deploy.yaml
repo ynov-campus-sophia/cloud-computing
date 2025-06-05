@@ -5,7 +5,7 @@ on:
     - 'scripts/*'
     - '.github/workflows/*.yaml'
     - 'workshops/*'
-jobs: 
+jobs:
   example-job:
     name: deploy-do
     runs-on: ubuntu-22.04
