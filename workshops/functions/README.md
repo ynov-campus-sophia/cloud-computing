@@ -1,5 +1,6 @@
 # test functions
 ```
+doctl serverless install
 doctl serverless connect
 doctl serverless deploy  . --remote-build                                                                                                                
 
