@@ -1,10 +1,12 @@
-# environment:
-#   QUERY: 'filetype:xlsx budget 2024'
+environment:
+  QUERY: 'site:example.com inurl:admin'
 packages:
   - name: ynov
     functions:
-      - name: kraken
+      - name: dorking
         binary: false
         runtime: 'python:default'
         web: true
+        limits:
+          memory: 1024
         

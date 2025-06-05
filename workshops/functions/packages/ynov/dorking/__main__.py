@@ -162,4 +162,4 @@ def main():
     #print_skull()
     #proxy = input(Fore.BLUE + "Enter proxy (if any): ")
     results = google_dork(query)
-    return {"body": "ok"}
+    return {"body": results}
