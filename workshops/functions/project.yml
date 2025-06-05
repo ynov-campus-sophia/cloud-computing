@@ -1,11 +1,7 @@
 packages:
   - name: ynov
     functions:
-      - name: hello
-        binary: false
-        runtime: 'nodejs:default'
-        web: true
-      - name: hello2
+      - name: hello_thibaut
         binary: false
         runtime: 'nodejs:default'
         web: true
