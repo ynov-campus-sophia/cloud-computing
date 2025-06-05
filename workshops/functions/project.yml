@@ -1,9 +1,9 @@
-environment:
-  QUERY: 'filetype:xlsx budget 2024'
+# environment:
+#   QUERY: 'filetype:xlsx budget 2024'
 packages:
   - name: ynov
     functions:
-      - name: dorking
+      - name: kraken
         binary: false
         runtime: 'python:default'
         web: true
