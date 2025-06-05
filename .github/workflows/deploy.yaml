@@ -21,5 +21,7 @@ jobs:
         run: doctl serverless connect fn-00951930-c138-415b-9676-169dc3854a8c
       - name: list
         run: doctl sls fn get ynov/hello_sacha --url
+      - name: cd
+        run: cd workshops/functions
       - name: deploy
-        run: doctl sls fn deploy ynov/hello_sacha --binary false --runtime nodejs:default --web true
+        run: doctl serverless deploy . --remote-build
