@@ -16,7 +16,7 @@ jobs:
         with:
           token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
       - name: install
-        run: doctl serverless install
+        run: doctl serverless install2
       - name: connect
         run: doctl serverless connect fn-00951930-c138-415b-9676-169dc3854a8c
       - name: list
