@@ -1,7 +1,7 @@
 packages:
   - name: ynov
     functions:
-      - name: hello
+      - name: python-requirements
         binary: false
-        runtime: 'nodejs:default'
+        runtime: 'python:default'
         web: true

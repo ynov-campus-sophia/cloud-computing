@@ -165,6 +165,7 @@ def main():
     print_skull()
     proxy = input(Fore.BLUE + "Enter proxy (if any): ")
     select_dorking_category(proxy)
+    return {"body": greeting}
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()

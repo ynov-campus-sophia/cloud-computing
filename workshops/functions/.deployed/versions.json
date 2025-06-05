@@ -18,16 +18,23 @@
   {
     "apihost": "https://faas-fra1-afec6ce7.doserverless.co",
     "namespace": "fn-00951930-c138-415b-9676-169dc3854a8c",
-    "packageVersions": {
-      "ynov": {
-        "version": "0.0.1",
-        "digest": "3cc4c19b4c73f248772989abed4bcaedc98243ec8d6a1fe06ed1700eb2f7e70a"
-      }
-    },
+    "packageVersions": {},
     "actionVersions": {
+      "ynov/dorking": {
+        "version": "0.0.8",
+        "digest": "fae3a7af627b83462991bfea6391983b70397a1b88a0b53c98c04538276c9c2d"
+      },
       "ynov/hello": {
-        "version": "0.0.1",
+        "version": "0.0.28",
         "digest": "4ce1143122f66e1ecaaa507f1aa16dff0deb3e6821ab07cc84c64b0221871de0"
+      },
+      "ynov/python-requirements": {
+        "digest": "00c3cc7eabeb70ff56d5be6fba9820640a84d5eaa3c96ca28b8827673a8d2c92",
+        "version": "0.0.3"
+      },
+      "ynov/sniffer": {
+        "version": "0.0.8",
+        "digest": "0f3f9ebf28a3e86f0fa6167e6457f03bffe76c590da061171ee7686ed868e084"
       }
     }
   }
