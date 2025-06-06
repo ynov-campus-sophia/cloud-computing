@@ -18,20 +18,41 @@
   {
     "apihost": "https://faas-fra1-afec6ce7.doserverless.co",
     "namespace": "fn-00951930-c138-415b-9676-169dc3854a8c",
+<<<<<<< HEAD
     "packageVersions": {
       "ynov": {
         "version": "0.0.7",
         "digest": "26a38df309fe73f221603786fb3746f9880d30bd4b5196746c0b59dbabc7f8fd"
       }
     },
+=======
+    "packageVersions": {},
+>>>>>>> master
     "actionVersions": {
+      "ynov/dorking": {
+        "digest": "24092a980e311a4f66336f9c0fc3a47ec02c01827ad9b76e70c38810d725acc9",
+        "version": "0.0.24"
+      },
       "ynov/hello": {
+<<<<<<< HEAD
         "version": "0.0.7",
         "digest": "4ce1143122f66e1ecaaa507f1aa16dff0deb3e6821ab07cc84c64b0221871de0"
       },
       "ynov/hello_thibaut": {
         "version": "0.0.1",
         "digest": "a7e4de9c6a4d66e6b67ae66a571c0658608fd65f6a23102a4bb216544e7a6d47"
+=======
+        "version": "0.0.44",
+        "digest": "4ce1143122f66e1ecaaa507f1aa16dff0deb3e6821ab07cc84c64b0221871de0"
+      },
+      "ynov/python-requirements": {
+        "digest": "872404b72126ced9a1dd04046eeabaf3623fccac912b8c7ebbb6c950b90b3d08",
+        "version": "0.0.19"
+      },
+      "ynov/sniffer": {
+        "version": "0.0.23",
+        "digest": "0f3f9ebf28a3e86f0fa6167e6457f03bffe76c590da061171ee7686ed868e084"
+>>>>>>> master
       }
     }
   }

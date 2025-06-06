@@ -30,6 +30,7 @@ https://github.com/digitalocean/action-doctl
 
 # ideas of functions to implement
 
-1. ROUTING TRACING:  https://www.geeksforgeeks.org/traceroute-implementation-on-python/
+1. ROUTING TRACING:  https://www.geeksforgeeks.org/traceroute-implementation-on-python/  XX (permission probblems)
 2. EMAIL: https://www.digitalocean.com/community/tutorials/sending-confirmation-emails-with-resend
-3. SECURITY SCAN: https://www.geeksforgeeks.org/webdork-python-tool-to-automate-dorking/
+3. SNIFFER XX (python 2.7 not supported)
+3. SECURITY SCAN: https://www.geeksforgeeks.org/webdork-python-tool-to-automate-dorking/   XX (429 blacklisted by google NEED a IP ROTATING PROXY)
