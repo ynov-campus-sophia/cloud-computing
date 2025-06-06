@@ -8,7 +8,7 @@ services:
       - path: /workshops/apps/kraken
     github:
       repo: "ynov-campus-sophia/cloud-computing"
-      tag: master
+      branch: master
       deploy_on_push: false
     build_command: ""
     run_command: "python run.py"
