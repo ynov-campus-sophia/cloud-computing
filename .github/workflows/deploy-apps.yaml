@@ -8,6 +8,7 @@ jobs:
   example-job:
     name: deploy-do-function
     runs-on: ubuntu-22.04
+    if: github.ref=='refs/heads/bouffard'
     steps:
       - uses: actions/checkout@v2
       - name: Install doctl
