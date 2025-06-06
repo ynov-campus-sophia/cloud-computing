@@ -1,4 +1,4 @@
-name: thibaut-kraken-app3
+name: thibaut-kraken-app
 services:
   - name: kraken-job
     instance_count: 1
