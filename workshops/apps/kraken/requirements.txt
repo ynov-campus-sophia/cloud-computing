@@ -12,3 +12,4 @@ apscheduler
 fastapi
 pydantic
 pydantic-settings
+uvicorn
