@@ -1,0 +1,22 @@
+name: deploy do
+on:
+  push:
+    paths:
+    - '.github/workflows/*.yaml'
+    - 'workshops/apps*'
+jobs:
+  example-job:
+    name: deploy-do-function
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install doctl
+        uses: digitalocean/action-doctl@v2
+        with:
+          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+      - name: list apps list
+        run: doctl apps list
+      - name: update
+        run: doctl apps update 7bf5b69f-afc2-45ac-8da0-e77f3967bc23 --spec workshops/apps/kraken/config.yml --format ID,DefaultIngress,Created
+      - name: list
+        run: doctl serverless functions list

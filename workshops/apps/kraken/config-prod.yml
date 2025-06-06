@@ -1,4 +1,4 @@
-name: kraken-app-asinatra-dev
+name: kraken-app-asinatra-prod
 services:
   - name: kraken-job
     instance_count: 1
@@ -8,8 +8,8 @@ services:
       - path: /workshops/apps/kraken
     github:
       repo: "ynov-campus-sophia/cloud-computing"
-      branch: master
-      deploy_on_push: true
+      branch: v1.0.0
+      deploy_on_push: false
     build_command: ""
     run_command: "python run.py"
     # envs:

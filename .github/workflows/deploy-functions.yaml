@@ -2,12 +2,11 @@ name: deploy do
 on:
   push:
     paths:
-    - 'scripts/*'
     - '.github/workflows/*.yaml'
-    - 'workshops/*'
+    - 'workshops/functions*'
 jobs:
   example-job:
-    name: deploy-do
+    name: deploy-do-function
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
@@ -20,4 +19,4 @@ jobs:
       - name: connect
         run: doctl serverless connect fn-00951930-c138-415b-9676-169dc3854a8c
       - name: list
-        run: doctl sls fn get ynov/hello --url 
+        run: doctl serverless functions list
