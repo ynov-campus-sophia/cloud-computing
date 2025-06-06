@@ -11,3 +11,4 @@ flask_sqlalchemy
 apscheduler
 fastapi
 utils
+settings
