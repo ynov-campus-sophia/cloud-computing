@@ -10,8 +10,9 @@ services:
       repo: "ynov-campus-sophia/cloud-computing"
       branch: thibaut
       deploy_on_push: false
+    source_directory: /workshops/apps/kraken
     build_command: ""
-    run_command: "python run.py"
+    run_command: "python main.py"
     envs:
     - key: APP_DOMAIN
       scope: RUN_TIME
