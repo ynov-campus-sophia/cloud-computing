@@ -9,5 +9,3 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
    return 'Bonjour à tous'
-
-app.run(debug=True, host='0.0.0.0')

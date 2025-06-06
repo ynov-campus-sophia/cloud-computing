@@ -8,3 +8,6 @@ packages:
         binary: false
         runtime: 'python:default'
         web: true
+        limits:
+          memory: 1024
+        
