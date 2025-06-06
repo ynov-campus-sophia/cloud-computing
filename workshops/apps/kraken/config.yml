@@ -12,8 +12,8 @@ services:
       deploy_on_push: false
     build_command: ""
     run_command: "python run.py"
-    envs:
-    - key: APP_DOMAIN
-      scope: RUN_TIME
-      value: ${APP_DOMAIN}
+    # envs:
+    # - key: APP_DOMAIN
+    #   scope: RUN_TIME
+    #   value: ${APP_DOMAIN}
 region: ams3

@@ -10,3 +10,5 @@ python-dateutil
 flask_sqlalchemy
 apscheduler
 fastapi
+pydantic
+pydantic-settings
