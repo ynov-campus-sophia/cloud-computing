@@ -5,13 +5,14 @@ services:
     instance_size_slug: basic-xxs
     http_port: 5000
     routes:
-      - path: /workshops/apps/kraken
+      - path: /
     github:
       repo: "ynov-campus-sophia/cloud-computing"
       branch: development
       deploy_on_push: true
+    source_dir: workshops/apps/kraken
     build_command: ""
-    run_command: "python run.py"
+    run_command: "python main.py"
     # envs:
     # - key: APP_DOMAIN
     #   scope: RUN_TIME
