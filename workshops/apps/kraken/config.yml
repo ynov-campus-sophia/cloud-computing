@@ -1,0 +1,19 @@
+name: kraken-app
+services:
+  - name: kraken-job
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    http_port: 5000
+    routes:
+      - path: /workshops/apps/kraken
+    github:
+      repo: "ynov-campus-sophia/cloud-computing"
+      branch: master
+      deploy_on_push: false
+    build_command: ""
+    run_command: "python run.py"
+    envs:
+    - key: APP_DOMAIN
+      scope: RUN_TIME
+      value: ${APP_DOMAIN}
+region: ams3
