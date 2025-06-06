@@ -9,7 +9,7 @@ import sys
 pairs = ["BTCEUR","NANOEUR","ADAEUR","LINKEUR","XXRPZEUR","DOTEUR"]
 
 
-def job():
+def main():
     for pair in pairs:
             try:
                 ohlc, last = k.get_ohlc_data(pair)
@@ -18,5 +18,10 @@ def job():
                 time.sleep(1)
             except:
                 print("Unexpected error while fetching data for {}: {}", pair, sys.exc_info()[0])
+    return {
+    'body': {
+      'response_type': 'in_channel',
+      'text': 'done'
+    }
+  }
 
-job()

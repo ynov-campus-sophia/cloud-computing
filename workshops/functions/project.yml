@@ -3,7 +3,7 @@ environment:
 packages:
   - name: ynov
     functions:
-      - name: dorking
+      - name: kraken
         binary: false
         runtime: 'python:default'
         web: true
