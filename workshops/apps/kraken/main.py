@@ -19,3 +19,4 @@ def main():
             except:
                 print("Unexpected error while fetching data for {}: {}", pair, sys.exc_info()[0])
 
+main()
