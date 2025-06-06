@@ -1,4 +1,4 @@
-name: kraken-app
+name: thibaut-kraken-app
 services:
   - name: kraken-job
     instance_count: 1
@@ -10,7 +10,7 @@ services:
       repo: "ynov-campus-sophia/cloud-computing"
       branch: thibaut
       deploy_on_push: false
-    source_directory: /workshops/apps/kraken
+    source_dir: /workshops/apps/kraken
     build_command: ""
     run_command: "python main.py"
     envs:
