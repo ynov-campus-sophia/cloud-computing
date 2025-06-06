@@ -3,18 +3,8 @@ environment:
 packages:
   - name: ynov
     functions:
-<<<<<<< HEAD
       - name: traceroute_thibaut
         description: 'Traceroute function for Thibaut'
         binary: false
         runtime: 'python:default'
         web: true
-=======
-      - name: dorking
-        binary: false
-        runtime: 'python:default'
-        web: true
-        limits:
-          memory: 1024
-        
->>>>>>> master
