@@ -3,12 +3,7 @@ environment:
 packages:
   - name: ynov
     functions:
-<<<<<<< HEAD
-      - name: traceroute_thibaut
-        description: 'Traceroute function for Thibaut'
-=======
       - name: kraken
->>>>>>> master
         binary: false
         runtime: 'python:default'
         web: true
