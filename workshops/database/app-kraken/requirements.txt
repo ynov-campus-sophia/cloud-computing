@@ -1,0 +1,15 @@
+krakenex
+pykrakenapi
+schedule
+requests
+psycopg2
+pyyaml
+coloredlogs
+validators
+python-dateutil
+flask_sqlalchemy
+apscheduler
+fastapi
+pydantic
+pydantic-settings
+uvicorn
