@@ -22,3 +22,7 @@ variable "tpl" {
   type = string
   default = "docker.yaml"
 }
+
+variable "network_name" {
+  type = string
+}

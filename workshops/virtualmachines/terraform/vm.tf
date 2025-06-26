@@ -17,7 +17,7 @@ import {
 
 
 resource "digitalocean_vpc" "network" {
-  name   = "ynov"
+  name   = var.network_name
   region = "ams3"
   lifecycle {
     prevent_destroy = true
