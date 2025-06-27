@@ -22,7 +22,8 @@ from models.base import Session, engine, Base
 
 logger = utils.get_logger()
 
-pairs = ["BTCEUR","NANOEUR","ADAEUR","LINKEUR","XXRPZEUR","DOTEUR"]
+session = Session()
+pairs = ["BTCEUR"]
 
 logger.info('starting monitoring pair: %s', pairs)
 
@@ -35,8 +36,8 @@ def insertToTable(df, pair):
         ohlc = Ohlc(dt, last.open, last.close, last.high, last.low, last.volume, pair, "kraken")
         session.add(ohlc)
         session.commit()
-    except:
-        logger.error("Unexpected error while saving: %s", sys.exc_info()[0])
+    except Error as error:
+        logger.error("Unexpected error while saving: %s", error)
         session.rollback()
 
 def job():
@@ -44,11 +45,11 @@ def job():
     for pair in pairs:
             try:
                 ohlc, last = k.get_ohlc_data(pair)
+                logger.info("fetched data for %s: %s", pair, str(ohlc))
                 insertToTable(ohlc, pair)
-                logger.info("fetced data for %s: %s", pair, str(ohlc))
-                time.sleep(1)
             except:
                 logger.error("Unexpected error while fetching data for %s: %s", pair, sys.exc_info()[0])
+            
 
 
 

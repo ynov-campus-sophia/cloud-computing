@@ -39,6 +39,7 @@ packages:
   - libxmlsec1-dev 
   - libffi-dev 
   - liblzma-dev
+  - postgresql-client
 
 runcmd:
   - curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -

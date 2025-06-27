@@ -20,3 +20,4 @@ verify the conf in
 2025-05-16 14:01       248111  s3://backup-ynov/tools-to-install.pdf
 ```
 
+## create a psql dump from db AND upload to S3 bucket
