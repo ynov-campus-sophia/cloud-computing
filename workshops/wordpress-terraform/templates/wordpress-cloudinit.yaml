@@ -1,0 +1,50 @@
+#cloud-config
+package_update: true
+package_upgrade: true
+
+packages:
+  - apache2
+  - php
+  - php-mysql
+  - php-curl
+  - php-gd
+  - php-mbstring
+  - php-xml
+  - php-xmlrpc
+  - php-soap
+  - php-intl
+  - php-zip
+  - wget
+  - unzip
+  - curl
+  - mariadb-client
+
+runcmd:
+  - systemctl enable apache2
+  - systemctl start apache2
+  - cd /var/www/html
+  - rm -rf *
+  - wget https://wordpress.org/latest.tar.gz
+  - tar -xzf latest.tar.gz
+  - mv wordpress/* .
+  - rm -rf wordpress latest.tar.gz
+  - cp -R wordpress /var/www/html/
+  - chown -R www-data:www-data /var/www/html
+  - chmod -R 755 /var/www/html
+  - mkdir /var/www/html/wordpress/wp-content/uploads
+  - chown -R www-data:www-data /var/www/html/wordpress/wp-content/uploads/
+  - cp wp-config-sample.php wp-config.php
+  - #config de la connexion a la bdd
+  - sed -i "s/database_name_here/defaultdb/" wp-config.php
+  - sed -i "s/username_here/doadmin/" wp-config.php
+  - sed -i "s/password_here/AVNS_tSzHdFmyJvCH0vRvChs/" wp-config.php
+  - sed -i "s/localhost/private-wordpress-bdd-do-user-21717410-0.l.db.ondigitalocean.com:25060/" wp-config.php
+  - echo "define('DB_PORT', '25060');" >> wp-config.php
+  - curl -s https://api.wordpress.org/secret-key/1.1/salt/ >> wp-config.php
+  - systemctl restart apache2
+  - #mise en place du mount 
+  - apt update && apt install -y nfs-common
+  - mkdir -p /mnt/nfs_test
+  - echo '10.10.0.5:/srv/nfs_share /mnt/nfs_test nfs defaults 0 0' >> /etc/fstab
+  - mount -a
+  - echo 'Hello depuis le wordpress (persistant)' > /mnt/nfs_test/hello_from_client.txt
