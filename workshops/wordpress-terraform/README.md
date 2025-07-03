@@ -1,35 +1,37 @@
-# cloud-computing
+DigitalOcean Terraform Provider
+==================
 
-```
-sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+- Documentation: https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs
 
-pyenv install 3.10.4
-pyenv virtualenv 3.10.4 cloudcomputing
-pyenv  activate cloudcomputing
+Requirements
+------------
 
-```
+-	[Terraform](https://developer.hashicorp.com/terraform/install) 0.10+
+-	[Go](https://go.dev/doc/install) 1.14+ (to build the provider plugin)
 
-# doctl
+Building The Provider
+---------------------
 
-```
-https://docs.digitalocean.com/reference/doctl/how-to/install/
+Clone repository to: `$GOPATH/src/github.com/digitalocean/terraform-provider-digitalocean`
 
-cd ~
-wget https://github.com/digitalocean/doctl/releases/download/v1.124.0/doctl-1.124.0-linux-amd64.tar.gz
-
-tar xf ~/doctl-1.124.0-linux-amd64.tar.gz
-
-sudo mv ~/doctl /usr/local/bin
-
-doctl auth init
-
+```sh
+$ mkdir -p $GOPATH/src/github.com/digitalocean; cd $GOPATH/src/github.com/digitalocean
+$ git clone git@github.com:digitalocean/terraform-provider-digitalocean
 ```
 
-#doctl serverless install
+Enter the provider directory and build the provider
 
-## create then destroy it
+```sh
+$ cd $GOPATH/src/github.com/digitalocean/terraform-provider-digitalocean
+$ make build
 ```
-terraform apply  -var-file="terraform.tfvars"
-terraform state rm digitalocean_vpc.network
-terraform destroy  -var-file="terraform.tfvars"
-```
+
+Using the provider
+----------------------
+
+See the [DigitalOcean Provider documentation](https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs) to get started using the DigitalOcean provider.
+
+Developing the Provider
+---------------------------
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for information about contributing to this project.
