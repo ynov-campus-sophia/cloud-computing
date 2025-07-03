@@ -48,3 +48,4 @@ runcmd:
   - echo '10.10.0.5:/srv/nfs_share /mnt/nfs_test nfs defaults 0 0' >> /etc/fstab
   - mount -a
   - echo 'Hello depuis le wordpress (persistant)' > /mnt/nfs_test/hello_from_client.txt
+
